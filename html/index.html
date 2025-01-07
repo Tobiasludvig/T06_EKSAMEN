@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forside</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Playfair+Display&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../favicon_io/favicon-32x32.png" />
+  </head>
+  <body>
+    <!-- HEADER***********'' -->
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="index.html">
+            <img src="../img/MIT-LOGO.jpg" alt="logo" />
+          </a>
+        </div>
+        <div class="fix_mellemrum">
+          <a href="../html/index.html" class="desktop">HOME</a>
+
+          <a href="#projects_burger" class="desktop">PROJECTS</a>
+
+          <a href="#contact_me" class="desktop">CONTACT</a>
+
+          <a href="../html/about_me.html" class="desktop">ABOUT ME</a>
+        </div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="menu-wrapper hidden">
+        <div class="menu">
+          <a href="../html/index.html">HOME</a>
+
+          <a href="#projects_burger">PROJECTS</a>
+
+          <a href="#contact_me">CONTACT</a>
+
+          <a href="../html/about_me.html">ABOUT ME</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN************** -->
+    <main>
+      <section class="fade_in">
+        <div class="intro-grid">
+          <div class="intro-text">
+            <h1 class="">Hi, I'm Tobias</h1>
+            <p>Welcome to my portfolio, where I showcase my passion for creating visually stunning and user-friendly digital experiences</p>
+          </div>
+          <div class="intro-image">
+            <img src="../img/mig.svg" alt="Tobias's portrait" />
+          </div>
+
+          <!-- "Currently Unavailable" Section -->
+          <div class="unavailable">
+            <img src="../img/unavailable.svg" alt="Unavailable Icon" class="glow" />
+            <p>I'm currently unavailable</p>
+          </div>
+        </div>
+
+        <div class="computer_version1">
+          <img src="../img/abstrakt1.svg" alt="" />
+        </div>
+      </section>
+      <div id="projects_burger"></div>
+      <div class="z_indeks">
+        <h2>Projects</h2>
+      </div>
+      <!-- projekt 1 -->
+      <div class="card">
+        <div class="card-content">
+          <h2 class="card-title">T01</h2>
+        </div>
+        <div class="card-image">
+          <img src="../img/T01.png" alt="Image" />
+        </div>
+        <a href="../html/T01.html" class="card-link">SHOW ME MORE</a>
+      </div>
+      <!-- projekt 1 slut -->
+
+      <!-- projekt 2 -->
+      <div class="card">
+        <div class="card-content">
+          <h2 class="card-title">T02</h2>
+        </div>
+        <div class="card-image">
+          <img src="../img/T02.png" alt="Image" />
+        </div>
+        <a href="../html/T02.html" class="card-link">SHOW ME MORE</a>
+      </div>
+      <!-- projekt 2 slut -->
+
+      <!-- projekt 3 -->
+      <div class="card">
+        <div class="card-content">
+          <h2 class="card-title">T03</h2>
+        </div>
+        <div class="card-image">
+          <img src="../img/T03.png" alt="Image" />
+        </div>
+        <a href="../html/T03.html" class="card-link">SHOW ME MORE</a>
+      </div>
+      <!-- projekt 3 slut -->
+
+      <!-- projekt 4 -->
+      <div class="card">
+        <div class="card-content">
+          <h2 class="card-title">T04</h2>
+        </div>
+        <div class="card-image">
+          <img src="../img/T04.png" alt="Image" />
+        </div>
+        <a href="../html/T04.html" class="card-link">SHOW ME MORE</a>
+      </div>
+      <!-- projekt 4 slut -->
+
+      <!-- projekt 5 -->
+      <div class="card z_indeks">
+        <div class="card-content">
+          <h2 class="card-title">T05</h2>
+        </div>
+        <div class="card-image">
+          <img src="../img/T05.png" alt="Image" />
+        </div>
+        <a href="../html/T05.html" class="card-link">SHOW ME MORE</a>
+      </div>
+      <!-- projekt 5 slut -->
+
+      <div class="bigger_pushdown">
+        <img src="../img/abstrakt2.svg" alt="" />
+      </div>
+
+      <h2>Lets work together</h2>
+      <p>Tell me more about your project - Send me an e-mail and let's start creating</p>
+
+      <!-- FORMULAR -->
+
+      <form id="contact_me">
+        <label for="full-name">NAME <br /></label>
+        <input id="full-name" name="fname" type="text" /> <br /><br />
+        <label for="email">E-MAIL ADDRESS <br /></label>
+        <input id="email" name="email" type="email" />
+        <br /><br />
+
+        <div class="form-felt">
+          <label>
+            MESSAGE <br />
+            <textarea name="besked" rows="5"></textarea>
+          </label>
+        </div>
+
+        <button>SUBMIT</button>
+      </form>
+    </main>
+
+    <!-- FOOTER ************** -->
+    <footer>
+      <div class="footer-container">
+        <div><p>© 2025 TOBIASLUDVIG. All rights reserved.</p></div>
+
+        <div class="social-media">
+          <a href="https://www.instagram.com/tobias.fuhrman/" target="_blank" aria-label="Instagram">
+            <img src="../img/logo-instagram.svg" alt="Instagram" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="../java/js.js"></script>
+  </body>
+</html>
